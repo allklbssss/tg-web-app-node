@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '7021589135:AAEAx9Hi23IQYOnfDS75do0YOkabPmpe1pg'
+const token = '7021589135:AAFcdnOR_mia6A7cqCCfmrW-b9DaWm0vfgM'
 const webAppUrl = 'https://leafy-mousse-ef1109.netlify.app'
 
 const bot = new TelegramBot(token, {polling: true});
